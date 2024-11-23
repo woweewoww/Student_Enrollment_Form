@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="Enrollment_Form.css">
+</head>
+<body>
+
+    <div class="div">
+        <h1>Student Enrollment Form</h1>
+
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Fill in the form fields.</li>
+                <li>Check your interests.</li>
+                <li>Click "Enroll Now" to submit.</li>
+            </ol>
+        </div>
+
+    <section class="container">
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name">
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Email</label>
+                    <input type="text" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <label>Age</label>
+                    <input type="text" placeholder="Age">
+                </div>
+            </div>
+                    <p>Sex: </p>
+                    <p>Male <input type="radio" name="sex" id="Male" value="Male"></p>
+                    <p>Female <input type="radio" name="sex" id="Female" value="Female"></p>
+        
+
+                <div class="form-group">
+                    <label for="course">Course Options:</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select a course</option>
+                        <option value="BSIT">BSIT</option>
+                        <option value="BSSW">BSSW</option>
+                        <option value="BSPA">BSPA</option>
+                        <option value="BSBA">BSBA</option>
+                        <option value="DHRS">DHRS</option>
+                        <option value="BTVTED">BTVTED</option>
+                        <option value="BSENTREP">BSENTREP</option>
+
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <form action=""method=""></form>
+                    Interests:<br>
+                    <input type="checkbox" name=""> Web Development <br>
+                    <input type="checkbox" name=""> Data Science <br>
+                    <input type="checkbox" name=""> Networking <br>
+                    <input type="checkbox" name=""> Graphic Design <br>
+                    <input type="checkbox" name=""> Bartending <br>
+                    <input type="checkbox" name=""> Laws <br>
+                </div>
+
+                <button type="submit">Enroll Now</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Sex</th>
+                        <th>Course</th>
+                        <th>Interests</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>john@gmail.com</td>
+                        <td>20</td>
+                        <td>Male</td>
+                        <td>BSIT</td>
+                        <td>Web Development, Data Science</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>jane@gmail.com</td>
+                        <td>22</td>
+                        <td>Female</td>
+                        <td>BSSW</td>
+                        <td>Networking</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Emily Johnson</td>
+                        <td>emilyjohnson@gmail.com</td>
+                        <td>19</td>
+                        <td>Female</td>
+                        <td>BSPA</td>
+                        <td>Laws</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Michael Brown</td>
+                        <td>michaelbrown@gmail.com</td>
+                        <td>21</td>
+                        <td>Male</td>
+                        <td>BSBA</td>
+                        <td>Web Development</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Christian Brownlee</td>
+                        <td>cbrownlee@gmail.com</td>
+                        <td>21</td>
+                        <td>Male</td>
+                        <td>BSBA</td>
+                        <td>Networking</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Justine lee</td>
+                        <td>jlee@gmail.com</td>
+                        <td>19</td>
+                        <td>Male</td>
+                        <td>DHRS</td>
+                        <td>Bartending</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Olivia Rodrigo</td>
+                        <td>olirod@gmail.com</td>
+                        <td>21</td>
+                        <td>Female</td>
+                        <td>BSIT</td>
+                        <td>Graphic Design</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Joseph Marco</td>
+                        <td>jm@egmail.com</td>
+                        <td>18</td>
+                        <td>Male</td>
+                        <td>BSPA</td>
+                        <td>Laws</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Sabrina Carpenter</td>
+                        <td>rinacarpenter@gmail.com</td>
+                        <td>20</td>
+                        <td>Female</td>
+                        <td>BSSW</td>
+                        <td>Laws</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Josiah Santos</td>
+                        <td>josiahsantos@gmail.com</td>
+                        <td>21</td>
+                        <td>Male</td>
+                        <td>BSIT</td>
+                        <td>Graphic Design</td>
+                    </tr>
+
+                </tbody>    
+            </table>
+        </div>
+    </div>
+</body>
+</html>
